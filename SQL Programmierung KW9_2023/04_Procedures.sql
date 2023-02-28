@@ -26,3 +26,9 @@ SELECT * FROM Customers
 WHERE Country = @Country
 
 EXEC sp_Test 
+
+
+ALTER PROCEDURE sp_Test @Country varchar(20) = 'France'
+AS
+SELECT * FROM Customers
+WHERE Country = @Country

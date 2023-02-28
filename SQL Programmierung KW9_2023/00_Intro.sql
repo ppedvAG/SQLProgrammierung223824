@@ -11,13 +11,17 @@ Ablauf:
 
 Agenda/Themen:
 
-- Indizes/Indexes
-- Generelles DB Design, Keys, Tabellenaufbau, Constraints, Normalisierung
-- Partitionierung
-- Trigger
+-	Indizes/Indexes 
+-	Generelles DB Design, Keys, Tabellenaufbau, Constraints, Normalisierung
+	- Partitionierung
+	- Trigger
 - JSON/XML
-- Procedures/Funktionen
+-	Procedures/(Funktionen)
 - (Geodaten)
 - (Graph Tables/Database)
 - Job Agent
-- Locking/Blocking
+	- Locking/Blocking
+
+- #Temp Tables
+- CTEs
+- String & Datumsfunktionen bzw. interne Funktionen

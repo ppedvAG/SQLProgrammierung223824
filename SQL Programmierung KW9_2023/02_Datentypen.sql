@@ -23,6 +23,7 @@ char(10) = 'Nico      '
 nchar
 varchar(10) = 'Nico'
 nvarchar 
+varchar(MAX)
 
 
 Zeit Datentypen:
