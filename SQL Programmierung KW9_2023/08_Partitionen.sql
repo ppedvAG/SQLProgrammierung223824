@@ -56,3 +56,5 @@ FROM sys.partitions p
 JOIN sys.destination_data_spaces dds ON p.partition_number = dds.destination_id
 JOIN sys.filegroups f ON dds.data_space_id = f.data_space_id
 WHERE OBJECT_NAME(Object_ID) = 'Umsatz'
+
+SELECT * FROM sys.partitions
